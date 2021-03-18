@@ -6,13 +6,13 @@ To build and install the Blktrace wrapper app on your mobile device, you need so
 * Build and install apk file from source code
 
 
-## To Install java in Linux(Ubuntu)
-   To install this version, first update the package index:</br>
+## Install java in Linux(Ubuntu)
+   To install java, first update the package index:</br>
    `$ sudo apt update`</br>
    then install jdk </br>
    `sudo apt install default-jdk`
 
-## To install android sdk on Linux(Ubuntu)
+## Install android sdk on Linux(Ubuntu)
 1. **Create sdk folder**
    ```
    export ANDROID_SDK_ROOT=/usr/lib/android-sdk
@@ -33,9 +33,9 @@ To build and install the Blktrace wrapper app on your mobile device, you need so
    `cd $ANDROID_SDK_ROOT/cmdline-tools/tools/bin`
 6. **Accept licenses**<br>
    `yes | sdkmanager --licenses`
-## To install Gradle
+## Install Gradle
    Our app is build with Gradle version 6.5. Download Gradle 6.5 from [here](https://gradle.org/releases/) and follow the [installation guideline](https://docs.gradle.org/current/userguide/installation.html#installing_manually)
-## To build and install apk file from source code
+## Build and install apk file from source code
 1. Download the source code file 
 2. Go inside the source code folder
 3. Click on mouse right button and open terminal
