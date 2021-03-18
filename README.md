@@ -9,7 +9,7 @@ To build and install the Blktrace wrapper app on your mobile device, you need so
 ## To Install java in Linux(Ubuntu)
 To install this version, first update the package index:</br>
 `$ sudo apt update`</br>
-then install jdk 
+then install jdk </br>
 `sudo apt install default-jdk`
 
 ## To install android sdk on Linux(Ubuntu)
