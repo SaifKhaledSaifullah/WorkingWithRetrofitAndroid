@@ -41,13 +41,13 @@ OpenJDK 64-Bit Server VM (build 11.0.7+10-post-Ubuntu-2ubuntu218.04, mixed mode,
    ```
 2. **Download android sdk**</br>
   Go to [Android Sdk command line tools download](https://developer.android.com/studio/index.html#command-tools) page.Then down to Command line tools only Click on Linux link, accept the agreement and instead of downloading right click and copy link address
-```
-cd $ANDROID_SDK_ROOT
-sudo wget https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip
-sudo unzip commandlinetools-linux-6858069_latest.zip
-```
+   ```
+   cd $ANDROID_SDK_ROOT
+   sudo wget https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip
+   sudo unzip commandlinetools-linux-6858069_latest.zip
+   ```
 3. **Move folders**</br>
-   Rename the unpacked directory from cmdline-tools to tools, and place it under $ANDROID_SDK_ROOT/cmdline-tools, so now it should look like: $ANDROID_SDK_ROOT/cmdline-tools/tools. And inside it, you should have: NOTICE.txt bin lib source.properties.
+   Rename the unpacked directory from cmdline-tools to tools, and place it under $ANDROID_SDK_ROOT/cmdline-tools, so now it should look like:        $ANDROID_SDK_ROOT/cmdline-tools/tools. And inside it, you should have: NOTICE.txt bin lib source.properties.
 4. **Set path** </br>
   `PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/cmdline-tools/tools/bin`
 5. **Browse to sdkmanager**</br>
