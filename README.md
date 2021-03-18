@@ -21,7 +21,6 @@ To build and install the Blktrace wrapper app on your mobile device, you need so
 2. **Download android sdk**</br>
   Go to [Android Sdk command line tools download](https://developer.android.com/studio/index.html#command-tools) page.Then down to Command line tools only Click on Linux link, accept the agreement and instead of downloading right click and copy link address
    ```
-   cd $ANDROID_SDK_ROOT
     wget https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip
     unzip commandlinetools-linux-6858069_latest.zip
    ```
